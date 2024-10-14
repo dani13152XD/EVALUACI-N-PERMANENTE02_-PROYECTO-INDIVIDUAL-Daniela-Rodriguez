@@ -1,0 +1,334 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #568863;
+    box-shadow: 0px 2px 5px rgba(91, 83, 83, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: #4e6a7c;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+nav li a:hover{
+    color:#4f7f7d;
+    background-color: #96906e;
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #346584;
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.iconos a:hover {
+   
+    color: #6a9a69;
+    background-color: #aea576;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/pexels-trang-pham-294089-11867629.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+}
+
+.contenidouno h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.contenidouno h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.contenidouno p{
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: 1.6;
+    color: #fafafa;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #9b9052;
+    color: #346584;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-bottom: 200px;
+}
+
+.button:hover {
+    background-color: #f0e18c;
+    color: #2769f7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/pexels-jeswin-1280162.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    letter-spacing: 2px;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #908753;
+    font-size: 28px;
+}
+.figuras a:hover {
+   
+    color: #f0e18c;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #346584;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #fafafa;
+  }
+
+  .galeria p {
+    color: #fafafa;
+    text-align: center;
+    font-size: 14px;
+    line-height:5px ;
+    margin-bottom: 10px;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ebd34c;
+    padding: 5px;
+    border-style: dashed;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ebd34c;
+    color: #344a58;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #f0e18c;
+    color: #444f67;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #ebd34c;
+    color: #346584;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3, p {
+    color: #346584;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1.6;
+    text-align: center;
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #346584;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #334876; /* Cambia esto según el color que desees para el hover */
+}
+
+.name{
+    text-align: center;
+}
+  
+
+  
